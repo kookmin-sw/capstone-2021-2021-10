@@ -1,77 +1,69 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=352765&assignment_repo_type=GroupAssignmentRepo)
-# Welcome to GitHub
+### 1. Takeout
 
-캡스톤 팀 생성을 축하합니다.
+<img width="387" alt="bener" src="https://github.com/kookmin-sw/capstone-2021-10/blob/master/src/templates/poster.jpeg?raw=true">
 
-## 팀소개 및 페이지를 꾸며주세요.
-
-- 프로젝트 소개
-  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
-  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
-
-- 팀페이지 꾸미기
-  - 프로젝트 소개 및 팀원 소개
-  - index.md 예시보고 수정.
-
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
-
-**팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'
-
-**예시)** 2020년 0조  https://kookmin-sw.github.io/capstone-2020-0/
+**팀페이지 주소** https://kookmin-sw.github.io/capstone-2021-10/
 
 
-## 내용에 아래와 같은 내용들을 추가하세요.
-
-### 1. 프로잭트 소개
-
-프로젝트
-
-### 2. 소개 영상
-
-프로젝트 소개하는 영상을 추가하세요
-
-### 3. 팀 소개
-
-팀을 소개하세요.
-
-팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
-
-### 4. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
-
-### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
+---
 
 
-## Markdown을 사용하여 내용꾸미기
+### 2. Project Introduction
 
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
+연주자가 곡을 연습할 때 악보를 구하지 못하는 경우 여러 가지 세션이 섞여있는 음악만 듣고 카피해야 하는 경우가 있습니다. Takeout은 효율적인 곡 Copy를 위해 세션별로 들을 수 있도록 최대 5개의 stem을 제공하고, 수준에 맞는 비슷한 종류의 곡을 추천해 주는 입문자들을 위한 Web application입니다
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### 3. Abstract
 
-**Bold** and _Italic_ and `Code` text
+If a player cannot find the score while practicing, he or she may have to listen to and copy only the music that contains a variety of sessions. Takeout is a web application for beginners who recommend similar songs to suit their level, offering up to five items to listen to in each session for efficient song copying.
 
-[Link](url) and ![Image](src)
+
+---
+
+
+### 4. Members
+
+김초혜
+```
+Student ID : 20163102
+E-mail : inakplace6666@gmail.com
+Role :
 ```
 
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+유정현
+```
+Student ID : 20151142
+E-mail : dbwjdgus0@kookmin.ac.kr
+Role :
+```
 
-### Support or Contact
+이윤서
+```
+Student ID : 20171673
+E-mail : westyun1997@gmail.com
+Role :
+```
 
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
+이효성
+```
+Student ID : 20153218
+E-mail : lho2046@gmail.com
+Role :
+```
+
+---
+
+
+### 4. How To Use
+
+사용법은 매우 간단합니다. 연주하고자 하는 곡의 음원 유튜브 링크 또는 음원 파일을 업로드하고 stem 설정을 하면 원하는대로 다운받을 수 있게 제공합니다. 회원 가입 / 로그인을 통해 이전에 했던 음원 추출 기록을 조회할 수도 있고 유저들의 난이도 평가를 통해 비슷한 난이도의 곡을 추천받아서 연습할 수도 있습니다.
+
+
+---
+
+
+### 5. Data Flow Diagram
+<p><img src="https://raw.githubusercontent.com/kookmin-sw/capstone-2021-10/master/UIUX/Data%20flow%20diagram.png" width="800" /></p>

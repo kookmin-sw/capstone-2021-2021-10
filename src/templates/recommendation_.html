@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recommendation</title>
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/documentation.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://kit.fontawesome.com/c3d137927c.js" crossorigin="anonymous"></script>
+  <style>
+    h1{text-align : center;}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+	<div class="container">
+	  <div class="navbar-brand">
+		<a class="navbar-item" href="../">
+		  <img src="https://lh3.googleusercontent.com/pw/ACtC-3dxlWHMCK7RKjTT_hVSnB5B1Y4xPVJoPvXXjvaNu-CEBwhtjkttCs38SV1HlMUvT3CvX83J0JentDf0QBwjBwpWD4vfr7tdmcKqO5RGx6JUR68ylTGvunkHzUyahosG5cUHL-eHK4MrgalWnnKQ0gol=w1284-h239-no?authuser=0" alt="logo">
+		</a>
+		<span class="navbar-burger burger" data-target="navbarMenu">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</span>
+	  </div>
+	  <div id="navbarMenu" class="navbar-menu is-active">
+		  <div class="navbar-end">
+			  <span class="navbar-item">
+				  <a class="button is-black is-outlined is-rounded" href="/">
+					  <span>YoutubeLink</span>
+				  </a>
+			  </span>
+			  <span class="navbar-item">
+				  <a class="button is-black is-outlined is-rounded" href="/upload">
+					  <span>AudioFile</span>
+				  </a>
+			  </span>
+			  <!--<span class="navbar-item">
+				  <a class="button is-black is-outlined is-rounded" href="/recommendation">
+					  <span>recommendation</span>
+				  </a>
+			  </span>
+			  <span class="navbar-item">
+				  <a class="button is-black is-outlined is-rounded" href="/login">
+					  <span>login</span>
+				  </a>
+			  </span>-->
+		  </div>
+	  </div>
+	</div>
+  </nav>
+
+  <div class="container is-max-desktop">
+    <div class="container has-text-centered">
+		<div class="column is-6 is-offset-3">
+			<br><br><br><br><br><br><br>
+			<h1 class="title" style="color: black">
+				Music Spleeter : Take Out
+			</h1>
+
+
+		</div>
+	</div>
+	<br><br><br><br><br><br>
+    <section class="categories">
+      <div class="columns is-multiline">
+        <div class="column is-6">
+          <div class="category">
+            <h1 class="title is-5">
+              Drum Recommendation
+            </h1>
+            <!-- <hr /> -->
+            <ul>
+    
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                {link = "https://www.youtube.com/results?search_query=" + {reco[0][0]}}
+                &nbsp; <a href="{{link}}">{{reco[0][0]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="https://www.youtube.com/results?search_query=stop+standing+there">{{reco[0][1]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[0][2]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[0][3]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[0][4]}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="category">
+            <h1 class="title is-5">
+              Bass Recommendation
+            </h1>
+            <!-- <hr /> -->
+            <ul>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                 &nbsp; <a href="xxx">{{reco[1][0]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[1][1]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[1][2]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[1][3]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[1][4]}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="category">
+            <h1 class="title is-5">
+              piano Recommendation
+            </h1>
+            <!-- <hr /> -->
+            <ul>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[2][0]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[2][1]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[2][2]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[2][3]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[2][4]}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="category">
+            <h1 class="title is-5">
+              MR Recommendation
+            </h1>
+            <!-- <hr /> -->
+            <ul>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[3][0]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[3][1]}}</a>
+              </li>
+              <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[3][2]}}</a>
+              </li>
+			  <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[3][3]}}</a>
+              </li>
+			  <li>
+                <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                &nbsp; <a href="xxx">{{reco[3][4]}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

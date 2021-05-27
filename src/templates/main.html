@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Take out
+    </title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
+
+
+</head>
+<body>
+<section class="hero is-fullheight">
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="../">
+                        <img src="https://lh3.googleusercontent.com/pw/ACtC-3dxlWHMCK7RKjTT_hVSnB5B1Y4xPVJoPvXXjvaNu-CEBwhtjkttCs38SV1HlMUvT3CvX83J0JentDf0QBwjBwpWD4vfr7tdmcKqO5RGx6JUR68ylTGvunkHzUyahosG5cUHL-eHK4MrgalWnnKQ0gol=w1284-h239-no?authuser=0" alt="logo">
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenu" class="navbar-menu is-active">
+        			<div class="navbar-end">
+        				<span class="navbar-item">
+        					<a class="button is-black is-outlined is-rounded" href="/">
+        						<span>YoutubeLink</span>
+        					</a>
+        				</span>
+        				<span class="navbar-item">
+        					<a class="button is-black is-outlined is-rounded" href="/upload">
+        						<span>AudioFile</span>
+        					</a>
+        				</span>
+        				<!--<span class="navbar-item">
+        					<a class="button is-black is-outlined is-rounded" href="/recommendation">
+        						<span>recommendation</span>
+        					</a>
+        				</span>
+        				<span class="navbar-item">
+        					<a class="button is-black is-outlined is-rounded" href="/login">
+        						<span>login</span>
+        					</a>
+        				</span>-->
+        			</div>
+        		</div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+                <h1 class="title" style="color: black">
+                    Music Spleeter : Take Out
+                </h1>
+
+                <form method="POST" action="/getLink">
+                    <h3 class="subtitle" style="color: black">
+                            paste youtube link of music you want to split
+                    </h3>
+                    <div class="box" style="height: 80px;">
+                        <div class="field is-grouped">
+                            <p class="control is-expanded">
+                                <input class="input is-rounded" type="text " placeholder="Paste your link" name="link">
+                            </p>
+                            <p class="select is-rounded is-black">
+                                <select name="stems">
+                                    <option value="2">2stem</option>
+                                    <option value="4" selected="selected">4stem</option>
+                                    <option value="5">5stem</option>
+                                </select>
+                            </p>
+                            <p class="control">
+                                <script>
+                                    function toLoading() {
+                                        document.getElementById("order").className = "button is-loading is-rounded";
+                                        //document.getElementById("proBar").innerHTML = "<progress class='progress is-medium' max='100'>60%</progress>"
+                                    }
+                                </script>
+                                &nbsp;&nbsp;
+                                <button id="order" class="button is-black is-rounded" onclick="toLoading()" style="border: black; background-color: black;">
+                                    ORDER!
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
